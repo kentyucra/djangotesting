@@ -9,3 +9,6 @@ class TestPost(TestCase):
 
     def test_post_model(self):
         self.assertEqual(str(self.post), 'django')
+
+    def test_naive(self):
+        self.assertTrue(True)
